@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style type='text/css'>
+    * { box-sizing: border-box; }
+    html { font-family: "Lucida Sans", sans-serif; }
+    body { margin: 0px; max-width: 1000px; }
+    @media screen and (min-width: 801px) {
+      h1 { font-size: 50px; }
+      h2 { font-size: 30px; }
+    }
+    @media screen and (max-width: 800px) {
+      h1 { font-size: 6vw; }
+      h2 { font-size: 4vw; }
+    }
+    @media only screen and (max-width: 600px) {
+      td.card, td.club { display: none; }
+    }
+    h1 { margin: 5px 0px; }
+    h2 { margin: 5px 0px; }
+    header { padding: 1px 15px; margin-top: 5px; }
+    footer { padding: 1px 15px; margin: 5px 15px; border-radius: 5px; background-color: #d3d3d3; font-size: 12px; }
+    section { padding: 10px 15px; margin: 0px 0px; page-break-inside: avoid; }
+    table, tr, td { border-collapse: collapse; padding: 2px; }
+    table { width: 100%; }
+    td.pos { width: 5%; }
+    td.name, td.club { width: 30%; }
+    td.time { width: 10%; font-weight: bold; text-align: right; }
+    td.loss { width: 10%; text-align: right; }
+    td.card { width: 15%; text-align: right; }
+    tr:nth-child(even) { background-color: #f2f2f2; }
+    p.cat-title { background-color: #FCA002;; margin: 10px 0px 5px 0px; padding: 5px; border-radius: 5px; position: relative; }
+    p.cat-title span.category { font-weight: bold; font-size: 1.5em; }
+    p.cat-title span.controls { font-size: 1.0em; position: absolute; right: 5px; bottom: 5px; }
+    /* autoscroll-style */
+  </style>
+  <title>FWTN #1: Calton Hill</title>
+  <!-- autoscroll-head -->
+</head>
+<body>
+  <!-- autoscroll-top -->
+  <header>
+    <h1>FWTN #1: Calton Hill</h1>
+    <h2>2022-10-06</h2>
+  </header> <section>
+   <p class="cat-title">
+     <span class="category">Long</span>
+   </p>
+   <table><tr>
+<td class='pos'>1</td>
+<td class='name'>Tim Morgan</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>22:59</td>
+<td class='loss'></td>
+<td class='card'>8128128</td>
+</tr>
+<tr>
+<td class='pos'>2</td>
+<td class='name'>Daniel Stansfield</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>24:43</td>
+<td class='loss'>+1:44</td>
+<td class='card'>443871</td>
+</tr>
+<tr>
+<td class='pos'>3</td>
+<td class='name'>Aidan Smith</td>
+<td class='club'>SYO</td>
+<td class='time'>25:36</td>
+<td class='loss'>+2:37</td>
+<td class='card'>8220283</td>
+</tr>
+<tr>
+<td class='pos'>4</td>
+<td class='name'>Rachel Brown</td>
+<td class='club'>EUOC</td>
+<td class='time'>27:14</td>
+<td class='loss'>+4:15</td>
+<td class='card'>8120803</td>
+</tr>
+<tr>
+<td class='pos'>5</td>
+<td class='name'>Joe Sunley</td>
+<td class='club'>WCOC</td>
+<td class='time'>29:11</td>
+<td class='loss'>+6:12</td>
+<td class='card'>8200203</td>
+</tr>
+<tr>
+<td class='pos'>6</td>
+<td class='name'>Vicente López Sánchez</td>
+<td class='club'>ESOC</td>
+<td class='time'>31:09</td>
+<td class='loss'>+8:10</td>
+<td class='card'>8219112</td>
+</tr>
+<tr>
+<td class='pos'>7</td>
+<td class='name'>Matthew Gooch</td>
+<td class='club'>EUOC</td>
+<td class='time'>32:22</td>
+<td class='loss'>+9:23</td>
+<td class='card'>8632166</td>
+</tr>
+<tr>
+<td class='pos'>8</td>
+<td class='name'>Ewan Kerr</td>
+<td class='club'>ESOC</td>
+<td class='time'>33:51</td>
+<td class='loss'>+10:52</td>
+<td class='card'>2061446</td>
+</tr>
+<tr>
+<td class='pos'>9</td>
+<td class='name'>Joel Atkinson</td>
+<td class='club'>ELO</td>
+<td class='time'>34:28</td>
+<td class='loss'>+11:29</td>
+<td class='card'>1170606</td>
+</tr>
+<tr>
+<td class='pos'>10</td>
+<td class='name'>Stan Flint</td>
+<td class='club'>EUOC</td>
+<td class='time'>34:44</td>
+<td class='loss'>+11:45</td>
+<td class='card'>2105240</td>
+</tr>
+<tr>
+<td class='pos'>11</td>
+<td class='name'>Jonty Goodwin</td>
+<td class='club'>WCOC</td>
+<td class='time'>35:21</td>
+<td class='loss'>+12:22</td>
+<td class='card'>8074458</td>
+</tr>
+<tr>
+<td class='pos'>12</td>
+<td class='name'>Ross Lyall</td>
+<td class='club'>ELO</td>
+<td class='time'>35:57</td>
+<td class='loss'>+12:58</td>
+<td class='card'>1009688</td>
+</tr>
+<tr>
+<td class='pos'>13</td>
+<td class='name'>Paul Hammond</td>
+<td class='club'>FVO</td>
+<td class='time'>36:09</td>
+<td class='loss'>+13:10</td>
+<td class='card'>8080576</td>
+</tr>
+<tr>
+<td class='pos'>14</td>
+<td class='name'>Jonathan Ellis</td>
+<td class='club'>ESOC</td>
+<td class='time'>37:16</td>
+<td class='loss'>+14:17</td>
+<td class='card'>8200179</td>
+</tr>
+<tr>
+<td class='pos'>15</td>
+<td class='name'>Fiona Eades</td>
+<td class='club'>EUOC</td>
+<td class='time'>37:54</td>
+<td class='loss'>+14:55</td>
+<td class='card'>8668903</td>
+</tr>
+<tr>
+<td class='pos'>16</td>
+<td class='name'>Max Carcas</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>38:35</td>
+<td class='loss'>+15:36</td>
+<td class='card'>8230268</td>
+</tr>
+<tr>
+<td class='pos'>17</td>
+<td class='name'>Lizzie Stansfield</td>
+<td class='club'>EUOC</td>
+<td class='time'>39:34</td>
+<td class='loss'>+16:35</td>
+<td class='card'>8040302</td>
+</tr>
+<tr>
+<td class='pos'>18</td>
+<td class='name'>Terry Johnstone</td>
+<td class='club'>PENRITH, Cumbria</td>
+<td class='time'>39:37</td>
+<td class='loss'>+16:38</td>
+<td class='card'>8657531</td>
+</tr>
+<tr>
+<td class='pos'>19</td>
+<td class='name'>Thomas Corlett</td>
+<td class='club'>EUOC</td>
+<td class='time'>40:13</td>
+<td class='loss'>+17:14</td>
+<td class='card'>8019450</td>
+</tr>
+<tr>
+<td class='pos'>20</td>
+<td class='name'>Alistair Black</td>
+<td class='club'>ESOC</td>
+<td class='time'>40:21</td>
+<td class='loss'>+17:22</td>
+<td class='card'>8437491</td>
+</tr>
+<tr>
+<td class='pos'>21</td>
+<td class='name'>Alison Cunningham</td>
+<td class='club'>ESOC</td>
+<td class='time'>40:30</td>
+<td class='loss'>+17:31</td>
+<td class='card'>8630902</td>
+</tr>
+<tr>
+<td class='pos'>22</td>
+<td class='name'>Mairi Eades</td>
+<td class='club'>EUOC</td>
+<td class='time'>44:41</td>
+<td class='loss'>+21:42</td>
+<td class='card'>2030746</td>
+</tr>
+<tr>
+<td class='pos'>23</td>
+<td class='name'>Luke Naylor</td>
+<td class='club'>EUOC</td>
+<td class='time'>48:20</td>
+<td class='loss'>+25:21</td>
+<td class='card'>2061448</td>
+</tr>
+<tr>
+<td class='pos'>24</td>
+<td class='name'>Alex Chaudhri</td>
+<td class='club'>WCOC</td>
+<td class='time'>49:43</td>
+<td class='loss'>+26:44</td>
+<td class='card'>443874</td>
+</tr>
+</table></section>
+ <section>
+   <p class="cat-title">
+     <span class="category">Short</span>
+   </p>
+   <table><tr>
+<td class='pos'>1</td>
+<td class='name'>Calum Robertson</td>
+<td class='club'>ESOC</td>
+<td class='time'>29:50</td>
+<td class='loss'></td>
+<td class='card'>8003056</td>
+</tr>
+<tr>
+<td class='pos'>2</td>
+<td class='name'>Tricia Alston</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>30:14</td>
+<td class='loss'>+0:24</td>
+<td class='card'>8250563</td>
+</tr>
+<tr>
+<td class='pos'>3</td>
+<td class='name'>Maja Robertson</td>
+<td class='club'>ESOC</td>
+<td class='time'>31:26</td>
+<td class='loss'>+1:36</td>
+<td class='card'>8003055</td>
+</tr>
+<tr>
+<td class='pos'>4</td>
+<td class='name'>David Robertson</td>
+<td class='club'>ESOC</td>
+<td class='time'>32:49</td>
+<td class='loss'>+2:59</td>
+<td class='card'>1962218</td>
+</tr>
+<tr>
+<td class='pos'>5</td>
+<td class='name'>Michael Atkinson</td>
+<td class='club'>ELO</td>
+<td class='time'>33:12</td>
+<td class='loss'>+3:22</td>
+<td class='card'>1051177</td>
+</tr>
+<tr>
+<td class='pos'>6</td>
+<td class='name'>Hanne Robertson</td>
+<td class='club'>ESOC</td>
+<td class='time'>33:29</td>
+<td class='loss'>+3:39</td>
+<td class='card'>1970321</td>
+</tr>
+<tr>
+<td class='pos'>7</td>
+<td class='name'>Megan Brown</td>
+<td class='club'>ESOC</td>
+<td class='time'>34:57</td>
+<td class='loss'>+5:07</td>
+<td class='card'>9080117</td>
+</tr>
+<tr>
+<td class='pos'>8</td>
+<td class='name'>Judith Bell</td>
+<td class='club'>ESOC</td>
+<td class='time'>39:10</td>
+<td class='loss'>+9:20</td>
+<td class='card'>9690226</td>
+</tr>
+<tr>
+<td class='pos'>9</td>
+<td class='name'>Roger Scrutton</td>
+<td class='club'>ESOC</td>
+<td class='time'>40:32</td>
+<td class='loss'>+10:42</td>
+<td class='card'>8645224</td>
+</tr>
+<tr>
+<td class='pos'>10</td>
+<td class='name'>Robin Strain</td>
+<td class='club'>ELO</td>
+<td class='time'>43:08</td>
+<td class='loss'>+13:18</td>
+<td class='card'>7300500</td>
+</tr>
+<tr>
+<td class='pos'>11</td>
+<td class='name'>Jannik Klarmann</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>58:43</td>
+<td class='loss'>+28:53</td>
+<td class='card'>2061450</td>
+</tr>
+<tr>
+<td class='pos'>12</td>
+<td class='name'>Elisabeth Schlicht</td>
+<td class='club'>EUOC</td>
+<td class='time'>58:48</td>
+<td class='loss'>+28:58</td>
+<td class='card'>2061443</td>
+</tr>
+<tr>
+<td class='pos'>13</td>
+<td class='name'>James Cavanagh</td>
+<td class='club'>EUOC</td>
+<td class='time'>59:23</td>
+<td class='loss'>+29:33</td>
+<td class='card'>2061447</td>
+</tr>
+<tr>
+<td class='pos'>14</td>
+<td class='name'>Sébastien Dumont</td>
+<td class='club'>EUOC</td>
+<td class='time'>59:30</td>
+<td class='loss'>+29:40</td>
+<td class='card'>1022003</td>
+</tr>
+<tr>
+<td class='pos'>15</td>
+<td class='name'>Simon Harnqvist</td>
+<td class='club'>&nbsp;</td>
+<td class='time'>59:34</td>
+<td class='loss'>+29:44</td>
+<td class='card'>2061442</td>
+</tr>
+<tr>
+<td class='pos'>-</td>
+<td class='name'>Mary Williams</td>
+<td class='club'>ESOC</td>
+<td class='time'>MP</td>
+<td class='loss'></td>
+<td class='card'>8044366</td>
+</tr>
+</table></section>
+<!-- autoscroll-bottom -->
+</body></html>
